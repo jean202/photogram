@@ -36,5 +36,6 @@ spring:
       name: test
       password: 1234   
 
+### 수정하기
 file:
   path: C:/workspace/springbootwork/upload/
