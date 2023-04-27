@@ -18,8 +18,10 @@ public class AuthController {
         return "auth/signup";
     }
 
+    // 회원가입버튼 -> /auth/signup -> /auth/signin
     @PostMapping("/auth/signup")
     public String signup() {
+        System.out.println("signup실행됨? 으로 테스트");
         return "auth/signin";
     }
 }
